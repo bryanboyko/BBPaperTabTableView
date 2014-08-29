@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19BFCFD719B029B100D13FF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19BFCFD619B029B100D13FF5 /* Foundation.framework */; };
+		19BFCFD919B029B100D13FF5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19BFCFD819B029B100D13FF5 /* CoreGraphics.framework */; };
+		19BFCFDB19B029B100D13FF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19BFCFDA19B029B100D13FF5 /* UIKit.framework */; };
+		19BFCFE119B029B100D13FF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 19BFCFDF19B029B100D13FF5 /* InfoPlist.strings */; };
+		19BFCFE319B029B100D13FF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19BFCFE219B029B100D13FF5 /* main.m */; };
+		19BFCFE719B029B100D13FF5 /* BBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19BFCFE619B029B100D13FF5 /* BBAppDelegate.m */; };
+		19BFCFE919B029B200D13FF5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19BFCFE819B029B200D13FF5 /* Images.xcassets */; };
+		19BFCFF019B029B200D13FF5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19BFCFEF19B029B200D13FF5 /* XCTest.framework */; };
+		19BFCFF119B029B200D13FF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19BFCFD619B029B100D13FF5 /* Foundation.framework */; };
+		19BFCFF219B029B200D13FF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19BFCFDA19B029B100D13FF5 /* UIKit.framework */; };
+		19BFCFFA19B029B200D13FF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 19BFCFF819B029B200D13FF5 /* InfoPlist.strings */; };
+		19BFCFFC19B029B200D13FF5 /* BBPaperTabTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19BFCFFB19B029B200D13FF5 /* BBPaperTabTableViewTests.m */; };
+		19BFD00719B029DC00D13FF5 /* BBTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19BFD00619B029DC00D13FF5 /* BBTableViewController.m */; };
+		19BFD00B19B029F000D13FF5 /* BBTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 19BFD00919B029F000D13FF5 /* BBTableViewCell.m */; };
+		19BFD00C19B029F000D13FF5 /* BBTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19BFD00A19B029F000D13FF5 /* BBTableViewCell.xib */; };
+		19BFD00F19B03B6300D13FF5 /* BBSquareGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 19BFD00E19B03B6300D13FF5 /* BBSquareGradient.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19BFCFF319B029B200D13FF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19BFCFCB19B029B100D13FF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19BFCFD219B029B100D13FF5;
+			remoteInfo = BBPaperTabTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19BFCFD319B029B100D13FF5 /* BBPaperTabTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BBPaperTabTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19BFCFD619B029B100D13FF5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		19BFCFD819B029B100D13FF5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		19BFCFDA19B029B100D13FF5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		19BFCFDE19B029B100D13FF5 /* BBPaperTabTableView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BBPaperTabTableView-Info.plist"; sourceTree = "<group>"; };
+		19BFCFE019B029B100D13FF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		19BFCFE219B029B100D13FF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		19BFCFE419B029B100D13FF5 /* BBPaperTabTableView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BBPaperTabTableView-Prefix.pch"; sourceTree = "<group>"; };
+		19BFCFE519B029B100D13FF5 /* BBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBAppDelegate.h; sourceTree = "<group>"; };
+		19BFCFE619B029B100D13FF5 /* BBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBAppDelegate.m; sourceTree = "<group>"; };
+		19BFCFE819B029B200D13FF5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		19BFCFEE19B029B200D13FF5 /* BBPaperTabTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BBPaperTabTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19BFCFEF19B029B200D13FF5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		19BFCFF719B029B200D13FF5 /* BBPaperTabTableViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BBPaperTabTableViewTests-Info.plist"; sourceTree = "<group>"; };
+		19BFCFF919B029B200D13FF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		19BFCFFB19B029B200D13FF5 /* BBPaperTabTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBPaperTabTableViewTests.m; sourceTree = "<group>"; };
+		19BFD00519B029DC00D13FF5 /* BBTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBTableViewController.h; sourceTree = "<group>"; };
+		19BFD00619B029DC00D13FF5 /* BBTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBTableViewController.m; sourceTree = "<group>"; };
+		19BFD00819B029F000D13FF5 /* BBTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBTableViewCell.h; sourceTree = "<group>"; };
+		19BFD00919B029F000D13FF5 /* BBTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBTableViewCell.m; sourceTree = "<group>"; };
+		19BFD00A19B029F000D13FF5 /* BBTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BBTableViewCell.xib; sourceTree = "<group>"; };
+		19BFD00D19B03B6300D13FF5 /* BBSquareGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBSquareGradient.h; sourceTree = "<group>"; };
+		19BFD00E19B03B6300D13FF5 /* BBSquareGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBSquareGradient.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19BFCFD019B029B100D13FF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19BFCFD919B029B100D13FF5 /* CoreGraphics.framework in Frameworks */,
+				19BFCFDB19B029B100D13FF5 /* UIKit.framework in Frameworks */,
+				19BFCFD719B029B100D13FF5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19BFCFEB19B029B200D13FF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19BFCFF019B029B200D13FF5 /* XCTest.framework in Frameworks */,
+				19BFCFF219B029B200D13FF5 /* UIKit.framework in Frameworks */,
+				19BFCFF119B029B200D13FF5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19BFCFCA19B029B100D13FF5 = {
+			isa = PBXGroup;
+			children = (
+				19BFCFDC19B029B100D13FF5 /* BBPaperTabTableView */,
+				19BFCFF519B029B200D13FF5 /* BBPaperTabTableViewTests */,
+				19BFCFD519B029B100D13FF5 /* Frameworks */,
+				19BFCFD419B029B100D13FF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19BFCFD419B029B100D13FF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19BFCFD319B029B100D13FF5 /* BBPaperTabTableView.app */,
+				19BFCFEE19B029B200D13FF5 /* BBPaperTabTableViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19BFCFD519B029B100D13FF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19BFCFD619B029B100D13FF5 /* Foundation.framework */,
+				19BFCFD819B029B100D13FF5 /* CoreGraphics.framework */,
+				19BFCFDA19B029B100D13FF5 /* UIKit.framework */,
+				19BFCFEF19B029B200D13FF5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		19BFCFDC19B029B100D13FF5 /* BBPaperTabTableView */ = {
+			isa = PBXGroup;
+			children = (
+				19BFCFE519B029B100D13FF5 /* BBAppDelegate.h */,
+				19BFCFE619B029B100D13FF5 /* BBAppDelegate.m */,
+				19BFD00519B029DC00D13FF5 /* BBTableViewController.h */,
+				19BFD00619B029DC00D13FF5 /* BBTableViewController.m */,
+				19BFD00819B029F000D13FF5 /* BBTableViewCell.h */,
+				19BFD00919B029F000D13FF5 /* BBTableViewCell.m */,
+				19BFD00A19B029F000D13FF5 /* BBTableViewCell.xib */,
+				19BFD00D19B03B6300D13FF5 /* BBSquareGradient.h */,
+				19BFD00E19B03B6300D13FF5 /* BBSquareGradient.m */,
+				19BFCFE819B029B200D13FF5 /* Images.xcassets */,
+				19BFCFDD19B029B100D13FF5 /* Supporting Files */,
+			);
+			path = BBPaperTabTableView;
+			sourceTree = "<group>";
+		};
+		19BFCFDD19B029B100D13FF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				19BFCFDE19B029B100D13FF5 /* BBPaperTabTableView-Info.plist */,
+				19BFCFDF19B029B100D13FF5 /* InfoPlist.strings */,
+				19BFCFE219B029B100D13FF5 /* main.m */,
+				19BFCFE419B029B100D13FF5 /* BBPaperTabTableView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		19BFCFF519B029B200D13FF5 /* BBPaperTabTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				19BFCFFB19B029B200D13FF5 /* BBPaperTabTableViewTests.m */,
+				19BFCFF619B029B200D13FF5 /* Supporting Files */,
+			);
+			path = BBPaperTabTableViewTests;
+			sourceTree = "<group>";
+		};
+		19BFCFF619B029B200D13FF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				19BFCFF719B029B200D13FF5 /* BBPaperTabTableViewTests-Info.plist */,
+				19BFCFF819B029B200D13FF5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19BFCFD219B029B100D13FF5 /* BBPaperTabTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19BFCFFF19B029B200D13FF5 /* Build configuration list for PBXNativeTarget "BBPaperTabTableView" */;
+			buildPhases = (
+				19BFCFCF19B029B100D13FF5 /* Sources */,
+				19BFCFD019B029B100D13FF5 /* Frameworks */,
+				19BFCFD119B029B100D13FF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BBPaperTabTableView;
+			productName = BBPaperTabTableView;
+			productReference = 19BFCFD319B029B100D13FF5 /* BBPaperTabTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		19BFCFED19B029B200D13FF5 /* BBPaperTabTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19BFD00219B029B200D13FF5 /* Build configuration list for PBXNativeTarget "BBPaperTabTableViewTests" */;
+			buildPhases = (
+				19BFCFEA19B029B200D13FF5 /* Sources */,
+				19BFCFEB19B029B200D13FF5 /* Frameworks */,
+				19BFCFEC19B029B200D13FF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19BFCFF419B029B200D13FF5 /* PBXTargetDependency */,
+			);
+			name = BBPaperTabTableViewTests;
+			productName = BBPaperTabTableViewTests;
+			productReference = 19BFCFEE19B029B200D13FF5 /* BBPaperTabTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19BFCFCB19B029B100D13FF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BB;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = none;
+				TargetAttributes = {
+					19BFCFED19B029B200D13FF5 = {
+						TestTargetID = 19BFCFD219B029B100D13FF5;
+					};
+				};
+			};
+			buildConfigurationList = 19BFCFCE19B029B100D13FF5 /* Build configuration list for PBXProject "BBPaperTabTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 19BFCFCA19B029B100D13FF5;
+			productRefGroup = 19BFCFD419B029B100D13FF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19BFCFD219B029B100D13FF5 /* BBPaperTabTableView */,
+				19BFCFED19B029B200D13FF5 /* BBPaperTabTableViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19BFCFD119B029B100D13FF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19BFCFE119B029B100D13FF5 /* InfoPlist.strings in Resources */,
+				19BFCFE919B029B200D13FF5 /* Images.xcassets in Resources */,
+				19BFD00C19B029F000D13FF5 /* BBTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19BFCFEC19B029B200D13FF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19BFCFFA19B029B200D13FF5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19BFCFCF19B029B100D13FF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19BFCFE719B029B100D13FF5 /* BBAppDelegate.m in Sources */,
+				19BFCFE319B029B100D13FF5 /* main.m in Sources */,
+				19BFD00719B029DC00D13FF5 /* BBTableViewController.m in Sources */,
+				19BFD00F19B03B6300D13FF5 /* BBSquareGradient.m in Sources */,
+				19BFD00B19B029F000D13FF5 /* BBTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19BFCFEA19B029B200D13FF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19BFCFFC19B029B200D13FF5 /* BBPaperTabTableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19BFCFF419B029B200D13FF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19BFCFD219B029B100D13FF5 /* BBPaperTabTableView */;
+			targetProxy = 19BFCFF319B029B200D13FF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		19BFCFDF19B029B100D13FF5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19BFCFE019B029B100D13FF5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		19BFCFF819B029B200D13FF5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19BFCFF919B029B200D13FF5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19BFCFFD19B029B200D13FF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		19BFCFFE19B029B200D13FF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19BFD00019B029B200D13FF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BBPaperTabTableView/BBPaperTabTableView-Prefix.pch";
+				INFOPLIST_FILE = "BBPaperTabTableView/BBPaperTabTableView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		19BFD00119B029B200D13FF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BBPaperTabTableView/BBPaperTabTableView-Prefix.pch";
+				INFOPLIST_FILE = "BBPaperTabTableView/BBPaperTabTableView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		19BFD00319B029B200D13FF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BBPaperTabTableView.app/BBPaperTabTableView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BBPaperTabTableView/BBPaperTabTableView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BBPaperTabTableViewTests/BBPaperTabTableViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		19BFD00419B029B200D13FF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BBPaperTabTableView.app/BBPaperTabTableView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BBPaperTabTableView/BBPaperTabTableView-Prefix.pch";
+				INFOPLIST_FILE = "BBPaperTabTableViewTests/BBPaperTabTableViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19BFCFCE19B029B100D13FF5 /* Build configuration list for PBXProject "BBPaperTabTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19BFCFFD19B029B200D13FF5 /* Debug */,
+				19BFCFFE19B029B200D13FF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19BFCFFF19B029B200D13FF5 /* Build configuration list for PBXNativeTarget "BBPaperTabTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19BFD00019B029B200D13FF5 /* Debug */,
+				19BFD00119B029B200D13FF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		19BFD00219B029B200D13FF5 /* Build configuration list for PBXNativeTarget "BBPaperTabTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19BFD00319B029B200D13FF5 /* Debug */,
+				19BFD00419B029B200D13FF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19BFCFCB19B029B100D13FF5 /* Project object */;
+}
