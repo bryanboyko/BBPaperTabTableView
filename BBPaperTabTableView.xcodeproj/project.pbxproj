@@ -460,6 +460,7 @@
 				19BFD00119B029B200D13FF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		19BFD00219B029B200D13FF5 /* Build configuration list for PBXNativeTarget "BBPaperTabTableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +469,7 @@
 				19BFD00419B029B200D13FF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

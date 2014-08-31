@@ -11,4 +11,6 @@
 
 @interface BBTableViewCell : UITableViewCell
 
+@property (nonatomic) UIView *paperTabShadowView;
+
 @end
